@@ -13,10 +13,12 @@ script.js       → hero data-graph canvas + scroll reveals
 assets/
   himanshi.jpeg                  → profile photo
   Himanshi-Rautela-Resume.pdf    → résumé, linked by the Resume buttons
+
 Run it locally (VS Code)
 Easiest: install the Live Server extension, right-click index.html → "Open with Live Server".
 Or just double-click index.html to open it in a browser.
 Or from a terminal in this folder:
+
 Deploy to Vercel
 Push this folder to a GitHub repo.
 On vercel.com → New Project → import the repo.
@@ -24,6 +26,7 @@ Framework preset: Other.
 Build command: leave empty.
 Output directory: ./ (root).
 Deploy. That's it — it's a static site.
+
 Things you'll likely want to edit
 Email / links: in index.html, search for himanshi.rautela09@gmail.com, github.com/Himanshirautela, and linkedin.com/in/himanshirautela.
 Add a project: copy one <article class="card">...</article> block in the #work section and edit it.
